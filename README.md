@@ -1,2 +1,2 @@
 # FOC
-Free Open Repository
+Free Open Console
