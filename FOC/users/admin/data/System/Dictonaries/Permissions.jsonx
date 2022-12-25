@@ -1,0 +1,10 @@
+{
+    "Level0": "No Access",
+    "Level1": "Read Only",
+    "Level2": "Read/Write (Non-Admin) (User Standard)",
+    "Level3": "Read/Write (Admin)",
+    "Level3.1": "Read/Write (Admin) (Installer Standard)",
+    "Level3.2": "Read/Write (Admin) (Program Standard)",
+    "Level4": "Super Admin (System) Can change other Permission levels",
+    "Higher": "Like Level 4"
+}

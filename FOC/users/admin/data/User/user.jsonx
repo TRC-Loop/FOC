@@ -1,0 +1,21 @@
+{
+    "username": "admin",
+    "password_hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+    "password_hint": "It's the same as your username.",
+    "permission_level": 3,
+    "info": "",
+    "email": "",
+    "phone": "",
+    "fullname": "",
+    "birthdate": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "zipcode": "",
+    "country": "",
+    "system": false,
+    "installer": false,
+    "program": false,
+    "user": true,
+    "created": "2022-12-25 19:35:04.680701"
+}

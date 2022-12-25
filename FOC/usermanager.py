@@ -303,9 +303,3 @@ class UserManager:
                 if use_hint and tries >= 3:
                     print(f"Hint: {self.load_user(userName=username)['password_hint']}")
                 
-manager = UserManager()
-start = time.time()
-manager.add_user("admin", "password", permission_level=3, passhint="It's the same as your username.")
-end = time.time()
-print(start - end)
-manager.prompt_password("admin")

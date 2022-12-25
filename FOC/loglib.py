@@ -13,7 +13,12 @@ class Logger:
         self.log_entries = ""
     def log(self, message: str, log_level: str):
         if log_level not in self.log_levels:
-            raise ValueError(f"Invalid log level: {log_level}")
+            current_time = str(datetime.datetime.now())
+            log_string = f'[{log_level.upper()}] {message}'
+            log_time = f"[{current_time}]"
+            log_entry = f"{log_time} {log_string}"
+            self.log_entries += log_entry + "\n"
+            return
         current_time = str(datetime.datetime.now())
         log_string = f'[{log_level.upper()}] {message}'
         log_time = f"[{current_time}]"
