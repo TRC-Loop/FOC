@@ -9,11 +9,12 @@ except:
     # Create the file
     with open('colors.jsonx', 'w') as f:
         json.dump({
-            "info": "#36a",
-            "warning": "#ff0",
-            "error": "#f00",
-            "fatal": "#f00"
-        }, f)
+            "info": "[green]",
+            "warning": "[yellow]",
+            "error": "#[red]",
+            "fatal": "#[bold red]}",
+            "time": "[bold blue]",
+        }, f, indent=4)
     with open('colors.jsonx', 'r') as f:
         color_config = json.load(f)
 
