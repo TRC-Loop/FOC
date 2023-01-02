@@ -280,7 +280,6 @@ class UserManager:
         user_data = self.load_user(username)
         if not user_data:
             return False
-
         return user_data["password_hash"] == self.hash_password(password)
 
     def hash_password(self, password):

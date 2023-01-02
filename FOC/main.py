@@ -11,8 +11,8 @@ except:
         json.dump({
             "info": "[green]",
             "warning": "[yellow]",
-            "error": "#[red]",
-            "fatal": "#[bold red]}",
+            "error": "[red]",
+            "fatal": "[bold red]",
             "time": "[bold blue]",
         }, f, indent=4)
     with open('colors.jsonx', 'r') as f:
@@ -26,6 +26,7 @@ try:
     log.log_warning("Imported Loglib ! Already imported.")
 except ImportError or ImportWarning:
     log.log_info("Loglib running good. continueing...")
+
 log.log_info("Importing CMD")
 import cmd
 log.log_info("Importing OS")

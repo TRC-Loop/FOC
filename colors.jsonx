@@ -1,7 +1,7 @@
 {
     "info": "[green]",
     "warning": "[yellow]",
-    "error": "[red]",
-    "fatal": "[bold red]",
+    "error": "#[red]",
+    "fatal": "#[bold red]}",
     "time": "[bold blue]"
 }
